@@ -1,41 +1,36 @@
+# 🏫 School Inventory Management System
 
+A web-based Django application designed to manage school resources such as computers, lab equipment, and classroom materials efficiently.
 
-# School Resource Management System - Tigray
+## 📌 Project Overview
 
-A Django-based web application for managing school inventory resources like categories, resource items, and assigned resources.
-
+This system allows school administrators to:
+- Track and manage physical resources.
+- View and update resource details like quantity, model, and status.
+- Access the admin interface securely.
+- Export data for reporting and documentation.
 
 ## 🚀 Features
 
-- Admin panel to manage:
-  - Categories
-  - Resources
-  - Assigned Resources
-- Public-facing page to view available resources
-- Relational data modeling with Django ORM
-- Form validation, user-friendly interface
+- 📋 Public resource listing page.
+- 🔐 Secure admin login and dashboard (customized using [Jazzmin](https://github.com/farridav/django-jazzmin)).
+- 📦 Add/edit/delete inventory items.
+- 📊 Export resource data in CSV format.
+- 📱 Responsive and user-friendly design.
 
----
+## 🧱 Tech Stack
 
-## 🛠️ Tech Stack
+| Technology     | Purpose                    |
+|----------------|----------------------------|
+| Django         | Web framework (backend)    |
+| SQLite         | Database                   |
+| HTML/CSS       | Frontend (basic styling)   |
+| Jazzmin        | Admin UI customization     |
+| GitHub         | Version control & hosting  |
 
-- **Backend**: Django (Python)
-- **Frontend**: Django Templates (HTML, Bootstrap)
-- **Database**: SQLite
-- **Version Control**: Git & GitHub
-
----
-
-## 🧪 Sample Data (Pre-loaded)
-
-- Categories: "Books", "Electronics", "Furniture"
-- Resources: "Projector", "Math Textbook", "Library Chair"
-- Assigned Resources: "Projector" assigned to student John Doe
-
----
-
-## 🧩 Setup Instructions
+## 🛠️ Installation & Setup
 
 1. **Clone the repository**
-   git clone https://github.com/yohana-dotcom/school-resource-management-Tigray.git
-cd school-resource-management-Tigray
+   ```bash
+   git clone https://github.com/School-resource-management/School-Inventory.git
+   cd School-Inventory
